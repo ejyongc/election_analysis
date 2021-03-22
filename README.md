@@ -2,17 +2,17 @@
 Utilizing Python to do an electoral analysis 
 
 ## Overview of Election Audit
-In this analysis we'll be utilizing python to audit data for the electiction commission in order to determine the results of the election.  The analysis consists of 3 main sections: The total count of votes in this election, the audit of votes by candidate and county, and the final results of the election and the announcement of the winner.
+In this analysis we'll be utilizing python to audit data for the electiction commission in order to determine the results of the election.  The analysis consists of 4 main sections: The total count of votes in this election, the audit of votes by candidate and county, the final results of the election, and the announcement of the winner.
 
 ## Election-Audit Results: 
   
 ### - How many votes were cast in this congressional election?
-The total count of votes was 369,711. In order to determine the total count of votes on the election, we created a loop to go through all the rows on the *election_ressults.csv* file. 
+The total count of votes was 369,711. In order to determine the total count of votes on the election, we created a *for* loop to go through all the rows on the *election_ressults.csv* file. 
 
 ![image](https://github.com/ejyongc/election_analysis/blob/main/Resources/List%20and%20dictionary%20loop.png)
   
 ### - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-In the same loop mentioned above, we were able to extract the *candidate_name* & *county_name* into two separate lists, and *candidates_votes* and *counties_votes* into two separate dictionaries that we will be used later to calculate the votes and percentage of total votes for each county and candidate.
+In the same *for* loop mentioned above, we were able to extract the *candidate_name* & *county_name* into two separate lists, and *candidates_votes* and *counties_votes* into two separate dictionaries that will be used later to calculate the votes and percentage of total votes for each county and candidate.
   
 After creating the list and dictionary for the counties, we ran a loop to calculate *votes* and *votes_percentage* for each county in the *county_name* list. (image below)
 
@@ -32,7 +32,7 @@ The results indicate that *Charles Casper Stockham* received 85,213 votes which 
 ### - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 As we can see from the results above, *Diane DeGette* is the candidate that won the election by a great advantage against her adversaries. Her final vote count was 272,892 which represented 73.8% of all the votes. 
   
-We calculated the *winning_count, winning_candidate, and winning_percentage* by running an *if* statement at the end of the *for* loop 
+We calculated the *winning_count, winning_candidate, and winning_percentage* by running an *if* statement at the end of the *for* loop. 
   
 ## Election-Audit Summary: 
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
