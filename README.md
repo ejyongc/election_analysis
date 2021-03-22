@@ -40,5 +40,7 @@ As we can see from the results above, *Diane DeGette* is the candidate that won 
   
 We calculated the *winning_count, winning_candidate, and winning_percentage* by running an *if* statement at the end of the *for* loop 
   
-3. Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections. 
+3. Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+
+Finally, the results of this election shown above is based on the dataset provided on the file *election_results.csv* but they are not limited to this dataset. This script can be utilized to audi different election results as the script could audit the dataset for future elections. 
 
