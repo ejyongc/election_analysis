@@ -14,12 +14,14 @@ Using a bulleted list, address the following election outcomes. Use images or ex
   
 #### - How many votes were cast in this congressional election?
 The total count of votes was 369,711. In order to determine the total count of votes on the election, we created a loop to go through all the rows on the *election_ressults.csv* file. 
+
 ![image](https://github.com/ejyongc/election_analysis/blob/main/Resources/List%20and%20dictionary%20loop.png)
   
 #### - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 In the same loop mentioned above, we were able to extract the *candidate_name* & *county_name* into two separate lists, and *candidates_votes* and *counties_votes* into two separate dictionaries that we will be used later to calculate the votes and percentage of total votes for each county and candate.
   
 After creating the list and dictionary for the counties, we ran a loop to calculate *votes* and *votes_percentage* for each county in the *county_name* list. (image below)
+
 ![image](https://github.com/ejyongc/election_analysis/blob/main/Resources/Loop%20for%20counties.png)
   
 After printing the results on the terminal and the *election_analysis.txt* file, we can see that the *Denver* county got the majority of th   e votes by a big difference (306,055 or 82.8% of the total votes). *Jefferson* county got 38,855 votes (10.5%) while Araphoe casted 24,801 (6.7%) votes. 
