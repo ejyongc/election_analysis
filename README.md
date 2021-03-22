@@ -1,4 +1,4 @@
-# electoral_analysis
+# Electoral_analysis
 Utilizing Python to do an electoral analysis 
 
 ## Overview of Election Audit
