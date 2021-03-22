@@ -35,7 +35,7 @@ As we can see from the results above, *Diane DeGette* is the candidate that won 
 We calculated the *winning_count, winning_candidate, and winning_percentage* by running an *if* statement at the end of the *for* loop. 
   
 ## Election-Audit Summary: 
-Finally, the results of this election shown above is based on the dataset provided on the file *election_results.csv* but they are not limited to this dataset. This script can be utilized to audit different election results as the *file_to_load* variable could be modified to load a file from a different path (line 09 - Image below)
+Finally, the results of this election shown above is based on the dataset provided on the file *election_results.csv* but they are not limited to this dataset. This script can be utilized to audit different election results as the *file_to_load* variable could be modified to load a file from a different path (line 09 - Image below). For example if we decided to run this election audit on a different state like Florida, we'd just have to make sure the columns on the csv file match the current order (Ballot ID, County, and Candidate).
 
 ![image](https://github.com/ejyongc/election_analysis/blob/main/Resources/file%20to%20open.png)
 
