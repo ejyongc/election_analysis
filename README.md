@@ -2,7 +2,7 @@
 Utilizing Python to do an electoral analysis 
 
 ## Overview of Election Audit
-In this analysis we'll be utilizing python to audit election data for the electiction commission in order to determine the results of the election.  The analysis consists of 3 main sections: The total count of votes in this election, the audit of votes by candidate and county, and the final results of the election and the announcement of the winner.
+In this analysis we'll be utilizing python to audit data for the electiction commission in order to determine the results of the election.  The analysis consists of 3 main sections: The total count of votes in this election, the audit of votes by candidate and county, and the final results of the election and the announcement of the winner.
 
 ## Election-Audit Results: 
   
