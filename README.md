@@ -18,7 +18,7 @@ After creating the list and dictionary for the counties, we ran a loop to calcul
 
 ![image](https://github.com/ejyongc/election_analysis/blob/main/Resources/Loop%20for%20counties.png)
   
-After printing the results on the terminal and the *election_analysis.txt* file, we can see that the *Denver* county got the majority of th   e votes by a big difference (306,055 or 82.8% of the total votes). *Jefferson* county got 38,855 votes (10.5%) while Arapahoe casted 24,801 (6.7%) votes. 
+After printing the results on the terminal and the *election_analysis.txt* file, we can see that the *Denver* county got the majority of the votes by a big difference (306,055 or 82.8% of the total votes). *Jefferson* county got 38,855 votes (10.5%) while Arapahoe casted 24,801 (6.7%) votes. 
   
 ### - Which county had the largest number of votes?
 As mentioned earlier, *Denver* is the county with the largest turnout in terms on votes. We utilized an *if* statement to calculate the *county_winnnig_count, winning_county, and county_winning_percentage*
